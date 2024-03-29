@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+  
+}
+.navbar{
+    background-color: #081621;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.Slogo{
+    height: 55px;
+    width: 50px;
+}
+.search-bar{
+    background-color: white;
+    border-radius: 5px 5px;
+    width: 470px;
+    border: none;
+   
+}
+.search-input{
+    border: none;
+    height: 40px;
+    width: 400px;
+    margin-left: 20px;
+    border: none;
+    font-family: "Trebuchet MS", sans-serif;
+}
+.search-input:focus{
+    outline: none;
+}
+.search-icon{
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+}
+.space{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+
+    /* text-align: center; */
+
+
+}
+/* .space .offers:last-child{
+    padding-right: 20px;
+} */
+.offers{
+    background-color: transparent;
+    /* align-items: center; */
+    display: flex;
+
+}
+.offer-s{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+.offer-icon{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #EF4A23;
+    padding-top: 6px;
+
+
+}
+.offer-name{
+    margin-left: 10px;
+
+}
+.offer-name p{
+    font-family: "Trebuchet MS", sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+}
+.offer-name p span{
+    font-size: 12px;
+    color: #848B89;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.Pc-button{
+    margin-right:40px;
+}
+
+.pc-s button{
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-image: linear-gradient(to right, #0E8AB4 0%, #1676AC  51%);
+}
+
+
+
+
+.sticky-navbar{
+    background-color: #FFFFFF ;
+    box-shadow: 0px 0px 4px lightgray;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+
+}
+.item-name{
+    justify-content: space-between;
+    font-family: "Trebuchet MS", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 12px;
+
+
+}
+.item-name a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.third-nav{
+    background-color: #fff;
+    height: 75px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding-left: 30px;
+    padding-right: 90px;
+    box-shadow: 0px 0px 4px lightgray;
+    border-radius: 40px;
+}
+
+.social-icon{
+    font-family: "Trebuchet MS", sans-serif; 
+    font-size: 16px; 
+}
+.social-icon i{
+    font-size: 16px;
+    color: #14243C;
+}
+
+.save-button{
+    display: flex;
+    font-family: "Trebuchet MS", sans-serif; 
+    justify-content: space-between;
+    width: 200px;
+}
+.save-button i{
+    color: #14243C ;
+}
+
+.product-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-image{
+    height: 270px;
+    width: 270px;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.title{
+    margin-top: 45px;
+    margin-left: 60px;
+    padding-left: 140px;
+    padding-right: 50px;
+    font-family: "Trebuchet MS", sans-serif; 
+}
+
+.details{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.details p{
+    background-color: #F5F6FC;
+    font-family: "Trebuchet MS", sans-serif; 
+    width: fit-content;
+    height: 15px;
+    padding: 7px;
+    /* margin: 10px; */
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+.details p span{
+    font-weight: bold;
+    color: black;
+}
+
+.info-dt{
+    padding-top: 20px;
+}
+.info-dt p{
+    font-size: 16px;
+    
+}
+.info-p a{
+    color: #EF4A23;
+}
+.discount{
+    /* padding: 15px; */
+    height: 30px;
+    margin-top: 20px;
+    width: 160px;
+    background-color: #F5F6FC;
+    border-radius: 3px;
+
+}
+.discount p{
+    color: #666666;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-family: "Trebuchet MS", sans-serif; 
+}
+
+
+
+
+
